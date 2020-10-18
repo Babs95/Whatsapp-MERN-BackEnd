@@ -1,0 +1,19 @@
+{
+    "name": "whatsapp-mern",
+    "version": "1.0.0",
+    "description": "Rest Api",
+    "main": "server.js",
+    "type": "module",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node --experimental-modules server.js"
+    },
+    "author": "babs",
+    "license": "ISC",
+    "dependencies": {
+        "cors": "^2.8.5",
+        "express": "^4.17.1",
+        "mongoose": "^5.10.9",
+        "pusher": "^3.0.1"
+    }
+}
